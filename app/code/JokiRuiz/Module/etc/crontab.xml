@@ -1,0 +1,7 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="custom_group_name">
+        <job name="custom_job_name" instance="JokiRuiz\Module\Cron\Class" method="method">
+            <schedule>*/30 * * * *</schedule>
+        </job>
+    </group>
+</config>
